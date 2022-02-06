@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0pxs;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /* height: 400px; */
+    /* background: url(../images/ber.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+html{
+    background: url(../images/logos/logg.jpg);
+    background-size: contain;
+}
+.loginDiv{
+    background-color: black;
+    position: absolute;
+    width:280px;
+    height:300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    padding: 45px 30px;
+
+    /* background-color: #101010; */
+}
+.loginIcon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.loginDiv h1{
+    margin: 20px 0 20px;
+    font-size: 25px;
+    text-align: center;
+    color:#fb2525;
+}
+.loginDiv label{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    color: #fb2525;
+}
+.loginDiv input[type=text],.loginDiv input[type=number],.loginDiv input[type=password], .loginDiv input[type=date]{
+    width: 100%;
+    margin-bottom:10px;
+    border: none;
+    background: transparent;
+    border-bottom:1px solid darkgray;
+    border-bottom:1px solid #fb2525;
+    outline: none;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+}
+.loginDiv input[type=text]:focus , .loginDiv input[type=password]:focus{
+    border-bottom:1px solid #fb2525;
+    border-bottom:1px solid white;
+}
+.loginDiv input[type=submit]{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background: #fb2525;
+}
+.loginDiv input[type=submit]:hover{
+    background-color: #fb2525;
+    color: white;
+    border: 1px solid white
+}
+.loginDiv a{
+    /* float: left; */
+    text-decoration: none;
+    color: darkgray;
+    font-size: 15px;
+}
+/* .loginDiv a:last-child{
+    float: right;
+} */
+.loginDiv a:hover{
+    color: white;
+    color: #fb2525;
+
+}

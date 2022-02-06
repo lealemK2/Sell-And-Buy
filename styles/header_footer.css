@@ -1,0 +1,133 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+ text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+ color: white;
+}
+.header-container{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background-color: black;
+
+
+}
+/* items */
+/* item 1 */
+.home-logo{
+    width: 20%;
+    display: flex;
+    /* border: 1px solid red; */
+    height: 70%;
+}
+.home-logo img{
+    height: 100%;
+    align-items: center;
+}
+
+/* item 2 */
+.search-bar{
+    /* border: 1px solid green; */
+    width: 33%;
+}
+.search-bar input[type=text]{
+    width: 350px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-image: url(../images/logos/account_dark.png.png);
+    background-image: url(../images/logos/search.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3px 10px 3px 40px;
+    border: 2px solid white;
+    color: black;
+
+}
+.search-bar input[type=text]:hover , input[type=text]:focus{
+    border: 2px solid #fb2525;
+
+}
+/* item 3 */
+ul{
+    /* margin-right: 50px ; */
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    /* width: 100%; */
+}
+nav li{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-right: 1px solid #fb2525;
+}
+nav li:last-child{
+    /* border-right: none;  */
+    border-right: 1px solid black;
+}
+.header-container nav a{
+    /* display: block; */
+    width: 60px;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+}
+.header-container nav li:hover{
+    border: 1px solid #fb2525;
+    /* color: blue; */
+}
+/* item 4 */
+.cart{
+    margin-right:15px ;
+    font-size: 16px;
+    /* border: 1px solid yellow; */
+    width: 150px;
+    display: flex;
+}
+.cart a{
+    width: fit-content;
+    /* border: 1px solid red; */
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+.cart a:hover{
+    color: #fb2525;
+    font-weight: bolder;
+}
+/* .header-container  */
+/* icons */
+.shopping-cart{
+    height: 18px;
+    fill: #fb2525;
+    position: relative;
+    top: 3px;
+}
+/* .header-container .home{
+    height:30px;
+    padding-bottom: 10px;
+    
+} */
+
+/* footer css */
+.footer-div {
+    background-color:black ;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.footer-div a{
+    padding: 20px 50px;
+}
+.footer-div a:hover{
+   color: #fb2525;
+}

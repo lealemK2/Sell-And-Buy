@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: url(../images/ber.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.loginDiv{
+    background-color: #101010;
+    position: absolute;
+    width:400px;
+    height:400px;
+    left: 50%;
+    top: 53%;
+    transform: translate(-50%,-50%);
+    color: white;
+    padding: 70px 30px;
+}
+.loginIcon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.loginDiv table{
+    /* background-color: lightcoral; */
+    margin: auto;
+    margin-top: 0px;
+    height: 300px;
+    width: 400px;
+}
+td:first-child{
+    width: 120px;
+}
+td:last-child in{
+    text-align: center;
+}
+.loginDiv h1{
+    /* margin: 0 0 10px; */
+    font-size: 25px;
+    text-align: center;
+    color:#fb2525;
+}
+.loginDiv label{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    color: #fb2525;
+}
+.loginDiv input[type=text],.loginDiv input[type=number],.loginDiv input[type=password], .loginDiv input[type=date]{
+    width: 100%;
+    margin-bottom:10px;
+    border: none;
+    background: transparent;
+    border-bottom:1px solid #fb2525;
+    outline: none;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+}
+
+.role {
+    height: 35px;
+    margin-top: 20px;
+}
+.role input[type=radio]{
+    color: white;
+    height: 15px;
+    width: 80px;
+    margin-top:10px;
+    font-size: 16px;
+}
+.loginDiv input[type=text]:focus,.loginDiv input[type=password]:focus,.loginDiv input[type=number]:focus{
+    border-bottom:1px solid #ffffff;
+}
+.loginDiv input[type=submit]{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background: #fb2525;
+}
+.loginDiv input[type=submit]:hover{
+    background-color: #fb2525;
+    color: white;
+    border: 1px solid white
+}
+.loginDiv a{
+    margin-top:10px ;
+    float: left;
+    text-decoration: none;
+    color: darkgray;
+    font-size: 15px;
+}
+.loginDiv a:last-child{
+    margin-left: 10px;
+    /* float: right; */
+}
+.loginDiv a:hover{
+    color: #fb2525;
+}

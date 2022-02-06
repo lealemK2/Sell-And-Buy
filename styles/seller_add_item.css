@@ -1,0 +1,88 @@
+.main-seller form *{
+    color: #fb2525;
+}
+.main-seller{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    /* background-color: bisque; */
+    margin:0 auto;
+    margin-right: 200px;
+}
+.main-seller input[type=image]{
+    width: 300px;
+    /* margin: 0 0 20px 120px; */
+    margin-left:60px ;
+    /* border: 1px solid red; */
+}
+
+/* form */
+.main-seller form{
+    /* background-color: black; */
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    padding: 30px;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+.main-seller table{
+    /* background-color: black; */
+    padding: 50px;
+    padding-top:0 ;
+}
+
+.main-seller input[type=text],.main-seller input[type=number],textarea, .main-seller input[type=date] ,.main-seller input[name=catagory]{
+    width: 100%;
+    margin:15px;
+    border: none;
+    background: transparent;
+    border-bottom:1px solid #fb2525;
+    outline: none;
+    color: white;
+    height: 35px;
+    font-size: 16px;
+}
+.side-seller{
+    padding-left:20px ;
+    justify-content: center;
+}
+.seller-container button,.seller-container input[type="submit"]{
+    width: 80%;
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 45px;
+    background: #fb2525;
+    color: white;
+}
+.seller-container button:hover,.seller-container input[type="submit"]:hover{
+    background-color: black;
+}
+#add-image-button{
+    width: 10%;
+    font-size: 13px;
+    color: white;
+    position: relative;
+    bottom: 55px;
+    left: 10px;
+    margin: 0px;
+}
+.main-seller textarea{
+    margin-left: 20px;
+}
+
+/* Default nav style */
+.side-seller .seller-management ul li:nth-child(n) a{
+    color: black;
+    border-bottom: 1px solid white;
+}
+.side-seller .seller-management ul li:nth-child(10n-8) a{
+    color: #fb2525;
+    border-bottom: 1px solid #fb2525;
+}
+.side-seller .seller-management ul li a:hover {
+    color: #fb2525;
+    border-bottom: 1px solid #fb2525;
+}

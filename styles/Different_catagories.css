@@ -1,0 +1,130 @@
+.cat-navigator a{
+    color: #fb2520;
+    display: inline-block;
+    margin-top: 2px;
+}
+.cat-navigator a:hover{
+    color: red;
+    font-weight: bolder;
+}
+.side-seller{
+    height: unset;
+    display: flex;
+    flex-direction:column;
+    padding: 30px;
+    box-sizing: border-box;
+    padding-top: 0;
+}
+.side-seller h1{
+    color: #fb2525;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 5px 0px;
+    border-bottom: 1px solid red;
+    padding-bottom: 10px;
+}
+
+.side-seller ul{
+    display: flex;
+    flex-direction: column;
+}
+.filter ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.filter input[type=number]{
+    width: 30px;
+}
+.filter li,.sub-catagories li{
+    padding: 10px 0;
+}
+.filter .size h2  {
+    margin-top: 30px;
+}
+.sub-catagories li:first-child  {
+    margin-top: 10px;
+
+}
+.filter h2{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 10px 0;
+    color: #fb2525;
+}
+.search-filter-button button{
+    width: 100%;
+    background-color:#fb2525;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    outline: none;
+}
+.search-filter-button button:hover {
+    background-color: black;
+}
+
+.sub-catagories a:hover, .filter li:hover{
+    color: #fb2525;
+}
+
+ /*main items  */
+.main-items{
+    width: 80%;
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    grid-auto-rows: 380px;
+    gap: 20px;
+    border-left:1px solid lightgray ;
+    border-collapse: collapse;
+    /* padding later*/
+    padding-left: 20px;
+}
+.main-items .product{
+    /* border: 1px solid red; */
+    display: grid;
+    justify-content: center;
+}
+.main-items .product img{
+    height: 300px;
+}
+.main-items .product h1{
+    font-size: 18px;
+}
+.main-items p{
+    max-height: 52px;
+    color: gray;
+    font-size: 15px;
+    overflow: hidden;
+}
+.product a:hover h1 ,.product a:hover p{
+    color: #fb2525;
+}
+
+
+/*  */
+/* home and kitchen */
+/*  */
+
+
+
+
+/* default sub catagories nav style */
+/* sub catagories first */
+.side-seller ul:first-child li:first-child a{
+    color: red;
+}
+/*  returning my account nav to black */
+.header-container nav li:last-child{
+    border: 1px solid black;
+    /* color: #fb2525; */
+}
+.header-container nav li:first-child{
+    border: 1px solid #fb2525;
+}
+
+.sorry-text p{
+    color: red;
+}

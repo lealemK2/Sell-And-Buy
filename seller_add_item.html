@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    <title>Seller Page</title>
+    <link type="text/css" rel="stylesheet" href="styles/seller_index.css">
+    <link rel="stylesheet" type="text/css" href="styles/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/fontawesome-free-5.13.0-web/css/all.css">
+    <link type="text/css" rel="stylesheet" href="styles/seller_add_item.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header-container">
+        <div class="home-logo">
+            <!-- <a href="index.html"><h1>Sell  &amp; Buy </h1></a> -->
+            <a href="index.html"><img src="images/logos/home.JPG"></a>
+        </div>
+        <div class="search-bar">
+            <input type="text" name="searchText">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="catagories.html">Catagories</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="sign_up.html">Sign Up</a></li>
+                <li><a href="seller_index.html">My account</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="cart.html">Cart &nbsp<i class="fab fa-accusoft cart"></i></a>
+        </div>
+    </div>
+
+    <!-- the big seller container -->
+    <div class="seller-container">
+        <div class="side-seller">
+            <div class="seller-management">
+                <ul>
+                    <li><a href="seller_index.html">My Items</a></li>
+                    <li><a href="seller_add_item.html">Add Item</a></li>
+                    <!-- <li><a href="#">Remove / Edit</a></li> -->
+                    <li><a href="#">Statistics</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-seller">
+            <form>
+                <input type="image" src="styles/svgs/random/image.svg" alt="Submit">
+                <button id="add-image-button">Add</button>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="itemName">Item Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="itemName" id="itemName" placeholder="Item Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="price">Price</label>
+                        </td>
+                        <td>
+                            <input type="number" name="price" id="price" placeholder="$">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="quantity">Quantity</label>
+                        </td>
+                        <td>
+                            <input type="number" name="quantity" id="quantity" placeholder="Quantity">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="catagory" >Catagory</label>
+                        </td>
+                        <td>
+                            <datalist id="catagories">
+                                <option value="Electronics">
+                                <option value="Clothes">
+                                <option value="Phones">
+                                <option value="Home and kitchen">
+                                <option value="Machinery">
+                                <option value="Kids">
+                            </datalist>
+                            <input list="catagories" name="catagory" placeholder="Catagory">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="desc">Description</label>
+                        </td>
+                        <td>
+                            <textarea name="desc" id="desc" placeholder="Description"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <button>Add More details</button>
+                 <input type="submit" value="Sumbit">
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer-div">
+        <div>
+            <ul>
+                <li><a>contact us</a></li>
+                <li><a>Sell &amp; Buy</a></li>
+                <li><a>&copy;2020 Sell &amp; Buy</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+

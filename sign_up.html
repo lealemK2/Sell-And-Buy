@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/sign_up.css" >
+</head>
+<body>
+ <div class="loginDiv">
+    <h1>SignUp here</h1>
+    <img src="Images/logos/account_light.png" class="loginIcon"/>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="fName">First Name</label>
+                </td>
+                <td>
+                    <input type="text" name="fName" id="fName" placeholder="First Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lName">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" name="lName" id="lName" placeholder="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="username">Username</label>
+                </td>
+                <td>
+                    <input type="text" name="username" id="username" placeholder="Username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Phone</label>
+                </td>
+                <td>
+                    <input type="number" name="phone" id="phone" placeholder="Phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="role">Role</label>
+                </td>
+                <td>
+                    <div class="role">
+                        <input type="radio" name="role" value="seller"><span>Seller</span>
+                        <input type="radio" name="role" value="buyer"><span>buyer</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="date" name="date" id="date">
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Sumbit"> 
+        <a href="login.html">Already have an account</a>
+        <a href="index.html">Go back to home</a>
+    </form>
+ </div>
+</body>

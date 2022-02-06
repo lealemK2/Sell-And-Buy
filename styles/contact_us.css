@@ -1,0 +1,54 @@
+.contact-us{
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    background-size: cover;
+    display: grid;
+    
+}
+.contact-us ul{
+    display: flex;
+    /* margin-top: 100px; */
+    width: 85%;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    height: fit-content;
+    margin-left: 50px;
+}
+body h1{
+    margin: 0;
+    margin-left:  40px;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+.contact-us h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 60px;
+    color: black;
+}
+.contact-us li{
+    color: black;
+    font-size: 18px;
+    padding: 20px;
+}
+.contact-us ul li img{
+    height: 30px;
+}
+.contact-us ul li span{
+    position: relative;
+    right: 5px;
+    top: 7px;
+}
+
+
+
+
+
+.footer-div{
+    margin-top: 50px;
+}
